@@ -11,6 +11,9 @@ Include "include/filter.php" in your top of the file to required login.
 
 Example:
 ```php
+<?php
 require 'include/filter.php';
+?>
+```
 
 
