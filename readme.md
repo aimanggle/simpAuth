@@ -10,8 +10,6 @@ Just Copy the files in your project and include the files in your project.
 Include "include/filter.php" in your top of the file to required login.
 
 Example:
-<?php
-require 'filterAuth.php';
-?>
+require 'include/filter.php';
 
 
