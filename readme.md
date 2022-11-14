@@ -16,4 +16,12 @@ require 'include/filter.php';
 ?>
 ```
 
+## How to modify page after succesful login ?
+Just modify the file "attemptlogin.php" and change the line 28 to your page.
+
+```php
+//redirect to user after succesfully login
+header("Location: dashboard.php");
+```
+
 
