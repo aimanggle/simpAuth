@@ -6,7 +6,8 @@ include 'config.php';
 $username = $_POST['username'];
 $password = $_POST['password'];
 
-// attempt login
+
+//attempt login
 $sql = "SELECT * FROM user WHERE username = '$username' AND password = '$password'";
 $result = mysqli_query($conn, $sql);
 
@@ -14,14 +15,14 @@ $result = mysqli_query($conn, $sql);
 $data = mysqli_fetch_array($result);
 
 //check if user exists
-if($username == $data['password'])
+if($password == $data['password'])
 {
     //start session
     session_start();
 
     //set session variables
     $_SESSION['username'] = $data['username'];
-    $_SESSION['isLoggedin'] = true;
+    $_SESSION['isLoggedin'] = 'true';
 
     //redirect to user after succesfully login
     header("Location: dashboard.php");
