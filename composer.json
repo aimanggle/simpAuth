@@ -6,6 +6,6 @@
             "Aiman\\SimpAuth\\": "src/"
         }
     },
-    "minimum-stability": "RC",
+    "minimum-stability": "",
     "require": {}
 }
