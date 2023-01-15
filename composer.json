@@ -1,0 +1,11 @@
+{
+    "name": "aiman/simp-auth",
+    "description": "Basic auth using php",
+    "autoload": {
+        "psr-4": {
+            "Aiman\\SimpAuth\\": "src/"
+        }
+    },
+    "minimum-stability": "RC",
+    "require": {}
+}
