@@ -1,12 +1,18 @@
 {
     "name": "aiman/simp-auth",
-    "description": "Basic auth using php",
-    "version": "1.0.0",
+    "description": "Basic auth php",
+    "type": "library",
+    "license": "no",
     "autoload": {
         "psr-4": {
             "Aiman\\SimpAuth\\": "src/"
         }
     },
+    "authors": [
+        {
+            "name": "aimanggle"
+        }
+    ],
     "minimum-stability": "stable",
     "require": {}
 }
